@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>kdhx</name>
+	<creationDate>April 1st, 2013</creationDate>
+	<author>Bredon Jones</author>
+	<authorEmail>bredon@efeqdev.com</authorEmail>
+	<authorUrl>http://efeqdev.com</authorUrl>
+	<copyright>Copyright (C) 2013 KDHX Community Radio All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<version>0.1</version>
+	<description>This is the base template framework for KDHX.org</description>
+
+	<files>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+		<filename>logic.php</filename>
+    <filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>scss</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+
+	<positions>
+		<position>above1</position>
+		<position>above2</position>
+		<position>above3</position>
+		<position>above4</position>
+		<position>breadcrumbs</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>main</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>bottom5</position>
+		<position>bottom6</position>
+		<position>menu</position>
+		<position>search</position>
+		<position>footer1</position>
+		<position>footer2</position>
+		<position>footer3</position>
+		<position>footer4</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="Customise Joomla! output" label="Customization!" addfieldpath="/templates/kdhx/functions">
+				<field name="setGeneratorTag" type="text" default="KDHX Community Radio Website-Making Robot" label="Generator Meta Tag" description="Customise the generator meta tag output by your template." size="80" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
