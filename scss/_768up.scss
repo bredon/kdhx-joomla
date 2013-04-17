@@ -173,3 +173,14 @@ textarea.span1,
 .uneditable-input.span1 {
   width: 28px;
 }
+#menu {
+  position:absolute;
+  width:75%;
+  top:40px;
+  top:4rem;
+  right:0;
+}
+#menu.row {
+  border-top:none;
+  background:none;
+}

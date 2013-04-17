@@ -70,7 +70,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/logic.php';
                 </nav>
             </div>
             <?php endif; ?>
-            <?php if($siteHome == 'sub') : ?>
             <div id="mainRow" class="row clearfix">
                 <?php if($this->countModules('left') or $this->countModules('search')) : ?>
                 <div id="main" role="main" class="mainLeft last clearfix">
@@ -96,7 +95,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/logic.php';
                 </div>
                 <?php endif; ?>
             </div>
-            <?php endif; ?>
             <nav id="menu" role="navigation" class="row clearfix"> <!-- main nav is here for usability and SEO reasons -->
             	<jdoc:include type="modules" name="menu" />
             </nav>
